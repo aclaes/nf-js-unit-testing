@@ -1,6 +1,40 @@
 # JS Unit Testing
 
-## Preparation
+## Prepare project
+
+Create a new directory for this project and open it
+
+```
+mkdir js-unit-testing
+cd js-unit-testing
+```
+
+Use git
+
+```
+git init
+```
+
+Use npm
+
+```
+npm init -y
+```
+
+Open the project with VSCode
+
+```
+code .
+```
+
+Important: Create a `.gitignore` file with this content:
+
+```
+.DS_Store
+node_modules
+```
+
+## Prepare testing with jest
 
 Install `jest`
 
